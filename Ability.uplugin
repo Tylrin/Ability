@@ -23,7 +23,7 @@
 	],
 	"Plugins": [
 		{
-			"Name": "Gameplay Abilities",
+			"Name": "GameplayAbilities",
 			"Enabled": true
 		}
 	]
