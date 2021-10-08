@@ -1,0 +1,2 @@
+C:\Users\till\Documents\Unreal Projects\AttributeSystem\Plugins\Ability\Intermediate\Build\Win64\UE4Editor\Development\Ability\Definitions.Ability.h
+C:\Users\till\Documents\Unreal Projects\AttributeSystem\Plugins\Ability\Source\Ability\Public\Ability.h

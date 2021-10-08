@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Ability.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\till\Documents\Unreal Projects\AttributeSystem\Intermediate\Build\Win64\AttributeSystemEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\till\Documents\Unreal Projects\AttributeSystem\Plugins\Ability\Intermediate\Build\Win64\UE4Editor\Development\Ability\Ability.cpp.obj"
+"C:\Users\till\Documents\Unreal Projects\AttributeSystem\Plugins\Ability\Intermediate\Build\Win64\UE4Editor\Development\Ability\Default.rc2.res"
+/OUT:"C:\Users\till\Documents\Unreal Projects\AttributeSystem\Plugins\Ability\Intermediate\Build\Win64\UE4Editor\Development\Ability\UE4Editor-Ability.lib"
