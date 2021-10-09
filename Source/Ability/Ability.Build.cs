@@ -36,6 +36,10 @@ public class Ability : ModuleRules
 			{
 				"CoreUObject",
 				"Engine",
+				"InputCore",
+				"GameplayAbilities",
+				"GameplayTasks",
+				"GameplayTags",
 				"Slate",
 				"SlateCore",
 				// ... add private dependencies that you statically link with here ...	
