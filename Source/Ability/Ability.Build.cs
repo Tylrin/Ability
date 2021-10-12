@@ -40,6 +40,8 @@ public class Ability : ModuleRules
 				"GameplayAbilities",
 				"GameplayTasks",
 				"GameplayTags",
+				"ModularGameplay",
+				"EnhancedInput",
 				"Slate",
 				"SlateCore",
 				// ... add private dependencies that you statically link with here ...	
