@@ -23,7 +23,7 @@ struct FAbilityInputBinding
 };
 
 /** Component that hooks up enhanced input to the ability system input logic */
-UCLASS(meta = (BlueprintSpawnableComponent))
+UCLASS(ClassGroup = AbilitySystem, meta = (BlueprintSpawnableComponent))
 class ABILITY_API UAbilityInputBindingComponent : public UPlayerControlsComponent
 {
 	GENERATED_BODY()

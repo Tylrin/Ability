@@ -13,7 +13,7 @@ class UInputMappingContext;
 class UInputAction;
 
 /** Modular pawn component for adding input actions and an optional input mapping to a pawn */
-UCLASS(Blueprintable, BlueprintType, Category = "Input", meta = (BlueprintSpawnableComponent))
+UCLASS(Blueprintable, BlueprintType, ClassGroup = Input, Category = "Input", meta = (BlueprintSpawnableComponent))
 class ABILITY_API UPlayerControlsComponent : public UPawnComponent
 {
 	GENERATED_BODY()
