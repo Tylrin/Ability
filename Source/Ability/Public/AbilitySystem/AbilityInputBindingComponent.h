@@ -16,7 +16,7 @@ struct FAbilityInputBinding
 {
 	GENERATED_BODY()
 
-		int32  InputID = 0;
+	int32  InputID = 0;
 	uint32 OnPressedHandle = 0;
 	uint32 OnReleasedHandle = 0;
 	TArray<FGameplayAbilitySpecHandle> BoundAbilitiesStack;
@@ -29,12 +29,15 @@ class ABILITY_API UAbilityInputBindingComponent : public UPlayerControlsComponen
 	GENERATED_BODY()
 
 public:
+	// Binds an input action to an ability handle
 	UFUNCTION(BlueprintCallable, Category = "Gameplay|Abilities")
 		void SetInputBinding(UInputAction* InputAction, FGameplayAbilitySpecHandle AbilityHandle);
 
+	// Cleares the input binding from a ability handle
 	UFUNCTION(BlueprintCallable, Category = "Gameplay|Abilities")
 		void ClearInputBinding(FGameplayAbilitySpecHandle AbilityHandle);
 
+	// Cleares all bindings from an input action
 	UFUNCTION(BlueprintCallable, Category = "Gameplay|Abilities")
 		void ClearAbilityBindings(UInputAction* InputAction);
 
