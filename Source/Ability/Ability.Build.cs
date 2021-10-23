@@ -19,13 +19,21 @@ public class Ability : ModuleRules
 			new string[] {
 				// ... add other private include paths required here ...
 			}
-			);
+		);
 			
-		
+
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
 				"Core",
+				"InputCore",
+				"CoreUObject",
+				"Engine",
+				"GameplayAbilities",
+				"GameplayTasks",
+				"GameplayTags",
+				"ModularGameplay",
+				"EnhancedInput"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
@@ -34,16 +42,6 @@ public class Ability : ModuleRules
 		PrivateDependencyModuleNames.AddRange(
 			new string[]
 			{
-				"CoreUObject",
-				"Engine",
-				"InputCore",
-				"GameplayAbilities",
-				"GameplayTasks",
-				"GameplayTags",
-				"ModularGameplay",
-				"EnhancedInput",
-				"Slate",
-				"SlateCore",
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
