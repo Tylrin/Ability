@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
 
-DECLARE_LOG_CATEGORY_EXTERN(LogInteraction, Log, All);
+DECLARE_LOG_CATEGORY_EXTERN(LogAbility, Log, All);
 
 class FAbilityModule : public IModuleInterface
 {
