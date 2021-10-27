@@ -2,11 +2,10 @@
 
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
-#include "AbilitySystemComponent"
+#include "AbilitySystemComponent.h"
 #include "GASAbilityTypes.h"
-#include "GameplayAbility.h"
-#include "GameplayEffectTypes.h"
-#include "GameplayEffect.h"
+#include "Abilities/GameplayAbility.h"
+#include "GASGameplayEffectTypes.h"
 #include "GASBlueprintLibrary.generated.h"
 
 /**

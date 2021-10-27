@@ -2,6 +2,7 @@
 
 
 #include "GASTargetType.h"
+#include "GameFramework/Character.h"
 
 void UGASTargetType::GetTargets_Implementation(ACharacter* TargetingCharacter, AActor* TargetingActor, FGameplayEventData EventData, TArray<FGameplayAbilityTargetDataHandle>& OutTargetData, TArray<FHitResult>& OutHitResults, TArray<AActor*>& OutActors) const
 {

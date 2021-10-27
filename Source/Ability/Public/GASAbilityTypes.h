@@ -50,11 +50,11 @@ public:
 
 	/** Computed target data */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = GameplayEffectContainer)
-		FGameplayAbilityTargetDataHandle TargetData;
+	FGameplayAbilityTargetDataHandle TargetData;
 
 	/** List of gameplay effects to apply to the targets */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = GameplayEffectContainer)
-		TArray<FGameplayEffectSpecHandle> TargetGameplayEffectSpecs;
+	TArray<FGameplayEffectSpecHandle> TargetGameplayEffectSpecs;
 
 	/** Returns true if this has any valid effect specs */
 	bool HasValidEffects() const;
