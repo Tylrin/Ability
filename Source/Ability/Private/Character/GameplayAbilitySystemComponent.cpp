@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "Player/GameplayAbilitySystemComponent.h"
+#include "Character/GameplayAbilitySystemComponent.h"
 
 void UGameplayAbilitySystemComponent::InitAbilityActorInfo(AActor* InOwnerActor, AActor* InAvatarActor)
 {

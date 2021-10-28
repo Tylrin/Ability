@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "Player/AbilityInputBindingComponent.h"
+#include "Character/AbilityInputBindingComponent.h"
 // #include "Ability.h"
 #include "InputAction.h"
 #include "EnhancedInputComponent.h"
