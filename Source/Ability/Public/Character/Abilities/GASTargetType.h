@@ -3,7 +3,7 @@
 #pragma once
 
 #include "Abilities/GameplayAbilityTypes.h"
-#include "GASAbilityTypes.h"
+#include "Character/Abilities/GASAbilityTypes.h"
 #include "GASTargetType.generated.h"
 
 class ACharacter;

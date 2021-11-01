@@ -1,5 +1,5 @@
 
-#include "GASGameplayEffectTypes.h"
+#include "Character/Abilities/GASGameplayEffectTypes.h"
 
 bool FGASGameplayEffectContext::NetSerialize(FArchive& Ar, UPackageMap* Map, bool& bOutSuccess)
 {

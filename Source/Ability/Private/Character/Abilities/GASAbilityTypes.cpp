@@ -1,6 +1,6 @@
 
 
-#include "GASAbilityTypes.h"
+#include "Character/Abilities/GASAbilityTypes.h"
 #include "AbilitySystemGlobals.h"
 #include "AbilitySystemComponent.h"
 
