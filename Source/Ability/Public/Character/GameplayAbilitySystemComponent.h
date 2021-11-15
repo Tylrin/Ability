@@ -54,6 +54,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Gameplay|Abilities")
 		void RemoveAbilityOfType(TSubclassOf<UGameplayAbility> AbilityType);
 
+	//UFUNCTION(BlueprintCallable, Category = "Gameplay|Abilities")
+	//	FGameplayAbilitySpecHandle FindAbilityHandleFromClass(TSubclassOf<UGameplayAbility> InAbilityClass);
+
 protected:
 	void GrantDefaultAbilitiesAndAttributes();
 
