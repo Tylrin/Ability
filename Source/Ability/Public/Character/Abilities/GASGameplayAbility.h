@@ -25,4 +25,8 @@ public:
 	// If an ability is marked as 'ActivateAbilityOnGranted', activate them immediately when given here
 	// Epic's comment: Projects may want to initiate passives or do other "BeginPlay" type of logic here.
 	virtual void OnAvatarSet(const FGameplayAbilityActorInfo* ActorInfo, const FGameplayAbilitySpec& Spec) override;
+
+	// Is the player's input currently pressed? Only works if the ability is bound to input.
+	UFUNCTION(BlueprintCallable, Category = "Ability")
+		virtual bool IsInputPressed() const;
 };

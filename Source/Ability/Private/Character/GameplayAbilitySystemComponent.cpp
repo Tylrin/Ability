@@ -45,12 +45,12 @@ FGameplayAbilitySpecHandle UGameplayAbilitySystemComponent::GrantAbilityOfType(T
 	return AbilityHandle;
 }
 
-//FGameplayAbilitySpecHandle UGameplayAbilitySystemComponent::FindAbilityHandleFromClass(TSubclassOf<UGameplayAbility> InAbilityClass)
-//{
-//	FGameplayAbilitySpec* Spec = FindAbilitySpecFromClass(InAbilityClass);
-//	FGameplayAbilitySpecHandle Handle = Spec->Handle;
-//	return Handle;
-//}
+FGameplayAbilitySpecHandle UGameplayAbilitySystemComponent::FindAbilityHandleFromClass(TSubclassOf<UGameplayAbility> InAbilityClass)
+{
+	FGameplayAbilitySpec* Spec = FindAbilitySpecFromClass(InAbilityClass);
+	FGameplayAbilitySpecHandle Handle = Spec->Handle;
+	return Handle;
+}
 
 
 void UGameplayAbilitySystemComponent::RemoveAbilityOfType(TSubclassOf<UGameplayAbility> AbilityType)

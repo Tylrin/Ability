@@ -18,3 +18,9 @@ void UGASGameplayAbility::OnAvatarSet(const FGameplayAbilityActorInfo* ActorInfo
 		bool ActivatedAbility = ActorInfo->AbilitySystemComponent->TryActivateAbility(Spec.Handle, false);
 	}
 }
+
+bool UGASGameplayAbility::IsInputPressed() const
+{
+	FGameplayAbilitySpec* Spec = GetCurrentAbilitySpec();
+	return Spec && Spec->InputPressed;
+}
