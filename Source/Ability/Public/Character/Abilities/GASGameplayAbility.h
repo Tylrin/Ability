@@ -28,5 +28,5 @@ public:
 
 	// Is the player's input currently pressed? Only works if the ability is bound to input.
 	UFUNCTION(BlueprintCallable, Category = "Ability")
-		virtual bool IsInputPressed() const;
+	virtual bool IsInputPressed() const;
 };

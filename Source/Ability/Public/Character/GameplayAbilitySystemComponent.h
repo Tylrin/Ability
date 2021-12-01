@@ -49,13 +49,13 @@ public:
 	//~ End UObject interface
 
 	UFUNCTION(BlueprintCallable, Category = "Gameplay|Abilities")
-		FGameplayAbilitySpecHandle GrantAbilityOfType(TSubclassOf<UGameplayAbility> AbilityType, bool bRemoveAfterActivation);
+	FGameplayAbilitySpecHandle GrantAbilityOfType(TSubclassOf<UGameplayAbility> AbilityType, bool bRemoveAfterActivation);
 
 	UFUNCTION(BlueprintCallable, Category = "Gameplay|Abilities")
-		void RemoveAbilityOfType(TSubclassOf<UGameplayAbility> AbilityType);
+	void RemoveAbilityOfType(TSubclassOf<UGameplayAbility> AbilityType);
 
 	UFUNCTION(BlueprintCallable, Category = "Gameplay|Abilities")
-		FGameplayAbilitySpecHandle FindAbilityHandleFromClass(TSubclassOf<UGameplayAbility> InAbilityClass);
+	FGameplayAbilitySpecHandle FindAbilityHandleFromClass(TSubclassOf<UGameplayAbility> InAbilityClass);
 
 protected:
 	void GrantDefaultAbilitiesAndAttributes();
